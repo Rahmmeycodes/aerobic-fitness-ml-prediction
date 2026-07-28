@@ -33,14 +33,20 @@ Random Forest performed best:
 Built with [Gradio](https://gradio.app). Takes age, body mass, warm-up heart rate, and running
 heart rate as input and returns a Low/High fitness verdict with a confidence score.
 
-## Running Locally
+## Run it
+
+Click the badge to open and run the notebook directly in Google Colab — no local setup needed.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rahmmeycodes/aerobic-fitness-ml-prediction/blob/main/aerobic_fitness_prediction.ipynb)
+
+Run all cells top to bottom; the last cell launches the Gradio app with a live URL you can open and test.
+
+Prefer to run it locally instead?
 
 ```bash
 pip install -r requirements.txt
 jupyter notebook aerobic_fitness_prediction.ipynb
 ```
-
-Run all cells; the last cell launches the Gradio app with a local (and optional temporary public) URL.
 
 ## Supervisor
 
